@@ -8,6 +8,7 @@ owl.owlCarousel({
     items:4,
     loop:true,
     nav:true,
+    lazyLoad:true,
     margin:10,
     responsive : {
      
@@ -35,6 +36,7 @@ owl1.owlCarousel({
     items:5,
     loop:true,
     nav:true,
+    lazyLoad:true,
     margin:10,
     responsive : {
       
@@ -65,6 +67,7 @@ owl1.owlCarousel({
     items:4,
     loop:true,
     nav:true,
+    lazyLoad:true,
     margin:10,
     responsive : {
       
@@ -94,6 +97,7 @@ owl1.owlCarousel({
     items:5,
     loop:true,
     nav:true,
+    lazyLoad:true,
     margin:10,
     responsive : {
        
@@ -124,6 +128,7 @@ owl1.owlCarousel({
     items:6,
     loop:true,
     nav:true,
+    lazyLoad:true,
     margin:10,
     responsive : {
       
@@ -175,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.addEventListener("DOMContentLoaded", function() {
     var lazyLoadInstance = new LazyLoad({
-      elements_selector: ".lazy-load"
+      elements_selector: ".owl-lazy"
      
     });
   });
