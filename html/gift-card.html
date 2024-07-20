@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift card</title>
+  <!-- Bootstrap cdn -->
+  <link rel="stylesheet" href="../Assets/bootstrap-5/css/bootstrap.min.css">
+  <!-- Fontawesome icons cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../Assets/owl/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../Assets/owl/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="../css/gift-card.css">
+</head>
+
+<body>
+  <!-- heder part start -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container ">
+        <a class="navbar-brand fs-2 fw-normal" href="../index.html" style="color: #F1641E;">Esty</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown text-nowrap">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-bars"></i> Categories
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                  crossorigin="anonymous"></script>
+              </a>
+              <ul class="dropdown-menu  " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Art & collectibles</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">baby</a></li>
+                <li><a class="dropdown-item" href="#">bags & purses</a></li>
+                <li><a class="dropdown-item" href="#">bath & beauty</a></li>
+                <li><a class="dropdown-item" href="#">books,Films & music</a></li>
+                <li><a class="dropdown-item" href="#">clothing</a></li>
+                <li><a class="dropdown-item" href="#">Craft Supplies & Tools</a></li>
+                <li><a class="dropdown-item" href="#">Electronics & Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Gifts</a></li>
+                <li><a class="dropdown-item" href="#">Home & Living</a></li>
+                <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                <li><a class="dropdown-item" href="#">Paper & Party Supplies</a></li>
+                <li><a class="dropdown-item" href="#">Pet Supplies</a></li>
+                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                <li><a class="dropdown-item" href="#">Toys & Games</a></li>
+                <li><a class="dropdown-item" href="#">Weddings</a></li>
+
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- search form -->
+        <form class="d-flex nav-search-form w-100">
+          <div class="input-group input-group-lg  py-2 ">
+            <input type="text" class="form-control rounded-pill w-100 position-relative " aria-label="Search"
+              type="search" placeholder="Search" aria-describedby="inputGroup-sizing-lg">
+            <span class="input-group-text rounded-pill position-absolute top-0 end-0 py-2 px-2 me-3"
+              id="inputGroup-sizing-lg" style="background-color: #F1641E; margin-top: 0.8rem;"><i
+                class="fa-solid fa-magnifying-glass text-white"></i></span>
+          </div>
+        </form>
+        <!-- search form -->
+        <div class="nav-icons d-flex align-items-center">
+          <button class="btn btn-light rounded-pill text-nowrap">Sign in</button>
+        </div>
+        <div class="flag">
+          <div class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus"
+            data-bs-placement="bottom" data-bs-content="India">
+            <img src="../imge/icons imges/india-flag-icon.webp" alt="" class="img-fluid ">
+          </div>
+        </div>
+        <div class="flag px-3">
+          <div class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus"
+            data-bs-placement="bottom" data-bs-content="Favourite">
+            <i class="fa-regular fa-heart fs-5"></i>
+          </div>
+        </div>
+        <div class="flag px-2">
+          <div class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus"
+            data-bs-placement="bottom" data-bs-content="Gift mode">
+            <i class="fa-solid fa-gift ms-2 fs-4"></i>
+          </div>
+        </div>
+        <div class="flag px-2">
+          <div class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus"
+            data-bs-placement="bottom" data-bs-content="Basket">
+            <i class="fa-solid fa-bucket ms-3 fs-5"></i>
+          </div>
+
+        </div>
+    </nav>
+    <!-- As a link -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-2 last-nvbar">
+      <div class="container">
+        <div class="m-auto">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link btn1" aria-current="page" href="./gift-card.html"><i class="fa-solid fa-gift"></i> Gift
+                Mode</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn1" aria-current="page" href="./Back-to-school.html">Father's Day
+                deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn1" aria-current="page" href="./Home-Favourites.html">Home Favourite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn1" aria-current="page" href="./Fashion-Favourites.html">Fashion Finds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn1" aria-current="page" href="./Etsy-Registry.html">Registry</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    </nav>
+
+  </header>
+  <!-- heder part end -->
+
+
+
+
+  <!--------section 1 start-------->
+
+  <section id="gift-nav-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <div class="main">
+            <h2>Extra-special gifts for</h2>
+            <div class="marquee-container">
+              <h2 class="marquee-text">
+                <div>Anyone</div>
+                <div style="color: blue;">The Music Lover</div>
+                <div style="color: green;">The Beauty Guru</div>
+                <div style="color: orange;"> The Mixologist</div>
+                <div style="color: blue;">The Beauty Guru</div>
+                <div style="color: green;"> The Cheese Lover</div>
+                <div style="color: orange;"> The Video Gamer</div>
+                <div class="item a">The Maximalist</div>
+              </h2>
+            </div>
+            <button id="marque-button">
+              <span class="play-btn active"><i class="fa-solid fa-play"></i></span>
+              <span class="pause-btn"><i class="fa-solid fa-pause"></i></span>
+            </button>
+          </div>
+
+          <div class="card">
+            <h4 style=" padding: 3rem 0 0 0; padding-left: 2rem;">Who are you shopping for?</h4>
+            <ul class="shopping-nav-text">
+              <li>
+                <span>Friend</span>
+              </li>
+              <li>
+                <span>Husband</span>
+              </li>
+              <li>
+                <span>Wife</span>
+              </li>
+              <li>
+                <span>Partner</span>
+              </li>
+              <li>
+                <span>Mum</span>
+              </li>
+              <li>
+                <span>Dad</span>
+              </li>
+              <li>
+                <span>Parent</span>
+              </li>
+              <li>
+                <span>Baby</span>
+              </li>
+              <li>
+                <span>Boyfriend</span>
+              </li>
+              <li>
+                <span>Girlfriend</span>
+              </li>
+              <li>
+                <span>Myself</span>
+              </li>
+              <li>
+                <span>Daughter</span>
+              </li>
+              <li>
+                <span>son</span>
+              </li>
+              <li>
+                <span>Child</span>
+              </li>
+              <li>
+                <span>Grandchild</span>
+              </li>
+              <li>
+                <span>Grandparent</span>
+              </li>
+              <li>
+                <span>Sister</span>
+              </li>
+              <li>
+                <span>Brother</span>
+              </li>
+              <li>
+                <span>Sibling</span>
+              </li>
+              <li>
+                <span>The Whole Family</span>
+              </li>
+              <li>
+                <span>Teacher</span>
+              </li>
+              <li>
+                <span>Coworker</span>
+              </li>
+              <li>
+                <span> Neighbour</span>
+              </li>
+              <li>
+                <span>Someone Else</span>
+              </li>
+              <li>
+                <span>next question</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Fantastic-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Fantastic finds for the occasion!</h4>
+        </div>
+        <div class="owl-carousel" id="owl-carousel">
+          <div class="card card-1">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(255, 183, 0);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Teacher Appreciation</h5>
+            </div>
+            <div class="card-img">
+              <!-- <img src="../imge/product-imge/gift-1.webp"> -->
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-1.webp">
+            </div>
+          </div>
+          <div class="card card-2">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Mother's Day</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-2.avif">
+            </div>
+          </div>
+          <div class="card card-3">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Housewarming</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-3.webp">
+            </div>
+          </div>
+          <div class="card card-4">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Anniversary</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-4.webp">
+            </div>
+          </div>
+          <div class="card card-5">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Thank You</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-5.webp">
+            </div>
+          </div>
+          <div class="card card-6">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Graduation</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-6.webp">
+            </div>
+          </div>
+          <div class="card card-7">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Expecting Parent</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-7.avif">
+            </div>
+          </div>
+          <div class="card card-8">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Get well</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-8.webp">
+            </div>
+          </div>
+          <div class="card card-9">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Wedding</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-9.webp">
+            </div>
+          </div>
+          <div class="card card-10">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Father's Day</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-10.webp">
+            </div>
+          </div>
+          <div class="card card-11">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Sympathy</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-11.webp">
+            </div>
+          </div>
+          <div class="card card-12">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Birthday</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-13">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Just Because</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-14">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Engagement</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-15">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">New Baby</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-16">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Christmas</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-17">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Valentine's Day</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+          <div class="card card-18">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"
+                style="background-color: rgb(0, 191, 255);border-radius: 30px;padding: 5px 8px;"></i>
+              <h5 class="py-2">Easter</h5>
+            </div>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-12.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="popular-gifts">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Get inspired! popular gifts ideas <i class="fa-solid fa-arrow-right" style="font-size: 20px;"></i></h4>
+        </div>
+      </div>
+      <div class="owl-carousel py-4" id="owl-carousel1">
+        <div class="card card-1 ">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/gift-1.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-2">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-2.avif">
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-3">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="color: white;font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-3.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-4">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-4.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-5">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-5.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-6">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px; color: white;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-6.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-7">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;color: white;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-7.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-8">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-8.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-9">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/Rgift-9.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-10">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-10.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-11">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-11.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-12">
+          <div class="card-header border-0 py-3" style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+            <div class="card-img">
+              <img class="card-img lazy-load" data-src="../imge/product-imge/R.gift-12.webp">
+            </div>
+          </div>
+        </div>
+        <div class="card card-13" style=" padding: 7.5rem 0;text-align: center;">
+          <div class="card-header border-0 py-3 " style="background-color: transparent;">
+            <i class="fa-solid fa-briefcase text-white"></i>
+            <h5 style="text-align: center;">Get extra-special gifts for anyone</h5>
+            <a href="#" class="btn btn-primary" style="border-radius: 25px;">browse all</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="design-gift">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3 style="text-align: center;">Discover popular gifts sure to delight</h4>
+            <div class="d-flex justify-content-center">
+              <ul class="gift-nav-text">
+                <li>
+                  <span>Jewellery</span>
+                </li>
+                <li>
+                  <span>Clothing</span>
+                </li>
+                <li>
+                  <span>Home Decor</span>
+                </li>
+                <li>
+                  <span>Accessories</span>
+                </li>
+                <li>
+                  <span>Pet Gifts</span>
+                </li>
+              </ul>
+            </div>
+            <div class="grid-img-div">
+              <div class="card card-1">
+                <img src="../imge/product-imge/bangari-1.webp">
+                <i class="fa-regular fa-heart "></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis "></i>
+
+              </div>
+              <div class="card card-2">
+                <img src="../imge/product-imge/bangari-2.webp">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis "></i>
+              </div>
+              <div class="card card-3">
+                <img src="../imge/product-imge/bangari-3.webp">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="card card-4">
+                <img src="../imge/product-imge/bangari-4.webp">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="card card-5">
+                <img src="../imge/product-imge/bangari-5.webp">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis "></i>
+              </div>
+              <div class="card card-6">
+                <img src="../imge/product-imge/bangari-6.webp">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis "></i>
+              </div>
+              <div class="card card-7">
+                <img src="../imge/product-imge/bangari-7.avif"></img>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="card card-8">
+                <img src="../imge/product-imge/bangari-8.avif"></img>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-camera "></i>
+                <i class="fa-solid fa-ellipsis "></i>
+              </div>
+            </div>
+            <div style="text-align: center;padding-top: 30px;">
+              <a href="#" class="btn btn-primary" style="border-radius: 25px;">Show more</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="Vintage-div-gifts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div>
+            <h1>Inspire your inner gifter!</h1>
+            <h6>Need more inspo? We've got ideas!</h6>
+            <div style="padding-top: 50px;">
+              <h4> How Do they love to be around the table?</h4>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel h-100" id="owl-carousel2">
+          <div class="card" style="background-color: red;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="car-img lazy-load" data-src="../imge/product-imge/img-1.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-2.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: aqua;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="color: white;font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-3.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-4.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: chartreuse;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-6.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-7.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-8.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(235, 81, 220);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-9.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(245, 98, 103);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-10.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(225, 60, 237);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-12.avif">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(114, 116, 234);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/img-13.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style=" padding: 7.5rem 0;text-align: center;">
+            <div class="card-header border-0 py-3 " style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <div class="card-img">
+                <h5 style="text-align: center;">Get extra-special gifts for anyone</h5>
+                <a href="#" class="btn btn-primary" style="border-radius: 25px;">browse all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section id="Appreciation-Gifts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+        </div>
+        <h2 style="padding-top:30px;">What's their guilty pleasure?</h2>
+        <div class="owl-carousel h-100" id="owl-carousel3">
+          <div class="card" style="background-color: red;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-1.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-2.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: aqua;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="color: white;font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-3.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-4.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: chartreuse;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-5.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-6.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-7.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(235, 81, 220);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-8.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(245, 98, 103);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-9.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(225, 60, 237);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-10.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(114, 116, 234);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-11.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(225, 60, 237);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-12.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-13.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style=" padding: 7.3rem 0;text-align: center;">
+            <div class="card-header border-0 py-3 " style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <div class="card-img">
+                <h5 style="text-align: center;">Get extra-special gifts for anyone</h5>
+                <a href="#" class="btn btn-primary" style="border-radius: 25px;">browse all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="Climbing-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+        </div>
+        <h2 style="padding-top:30px;">What's their sign?</h2>
+        <div class="owl-carousel h-100" id="owl-carousel4">
+          <div class="card" style="background-color: red;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-1.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-2.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: aqua;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="color: white;font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-3.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-4.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: chartreuse;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-5.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-6.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: blueviolet;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-7.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(235, 81, 220);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-8.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(245, 98, 103);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-9.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(225, 60, 237);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-10.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(114, 116, 234);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-11.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: rgb(225, 60, 237);">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-12.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background-color: cadetblue;">
+            <div class="card-header border-0 py-3" style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <h5 class="py-2" style="font-size: 18px;">Teacher Appreciation</h5>
+              <div class="card-img">
+                <img class="card-img lazy-load" data-src="../imge/product-imge/some-13.webp">
+              </div>
+            </div>
+          </div>
+          <div class="card" style=" padding: 7.4rem 0;text-align: center;">
+            <div class="card-header border-0 py-3 " style="background-color: transparent;">
+              <i class="fa-solid fa-briefcase text-white"></i>
+              <div class="card-img">
+                <h5 style="text-align: center;">Get extra-special gifts for anyone</h5>
+                <a href="#" class="btn btn-primary" style="border-radius: 25px;">browse all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="gift-teaser">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex">
+          <div class="row gx-0">
+            <div class="col-12 col-xl-6 h-lg-100 col-lg-12">
+              <div class="card h-100">
+                style="border-top-right-radius: 0 !important;border-bottom-right-radius: 0 !important;">
+                <div style="padding: 10rem 2rem 0 2rem;" class="w-75">
+                  <div class="d-flex mb-4 position-relative" style="width: fit-content;">
+                    <i class="fa-solid fa-star " style="color: yellow;font-size: 10px;"></i>
+                    <span style="background-color: aliceblue; padding: 0.5rem 1.5rem;border-radius: 30px;">New</span>
+                    <i class="fa-solid fa-star"
+                      style="color: yellow;font-size: 15px;position: absolute;bottom: 0;right: -10px;"></i>
+                    <i class="fa-solid fa-star" style="color: yellow;font-size: 10px;"></i>
+
+                    </ul>
+
+                  </div>
+                  <h4>Make any gift extra-special with a gift teaser – it’s *FREE!</h4>
+                  <h6 style="padding-top: 20px;"> <i class="fa-solid fa-envelope" style="padding-right:11px;"></i>Mark
+                    as a
+                    gift to send a gift teaser! *It’s free with purchase</h6>
+                  <h6 style="padding-top:20px ;"><i class="fa-solid fa-gift" style="padding-right:10px;"></i>Send a
+                    special
+                    note, tracking info, and even a sneak peek</h6>
+                  <h6 style="padding-top: 20px;"> <i class="fa-regular fa-paper-plane"
+                      style="padding-right:10px;"></i>Share
+                    it instantly… even on the way to the party!</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6 h-lg-100 col-lg-12  w-lg-100 ">
+              <div class="h-100 teaser-video w-100">
+                <video src="../imge/product-imge/gt_video-1.webm" autoplay muted loop class="h-100 w">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="Choose-div-nave">
+    <div class="container bg-light" style=" border-radius: 10px; padding: 55px;">
+      <div class="row">
+        <div class="col">
+          <div class="footer-left-nav-div">
+            <div class="inner-div" style="text-align: center;">
+              <h>Gift Mode</h>
+              <h4>Get extra-special gifts for anyone!</h4>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Find the perftect gift</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="printable-section" style="padding-top: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <img src="../imge/product-imge/old-1.webp"
+                  style="width: 100%;border-top-left-radius: 15px;border-bottom-left-radius: 15px; height: 100%;">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h2 style="padding-top: 25px;">Shop Esty gift cards</h2>
+                <h style="padding-top: 17px;">Get then something one-of-a-kind in miuntes, no guesswork needed.</h>
+                <h6 style="padding-top: 10px;">Pick a design<i class="fa-solid fa-arrow-right" style="padding:5px;"></i>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="past-div-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div style="padding-top: 120px;">
+            <h1 class="text-center">Welcome to Etsy Gift Mode!</h1>
+            <div class="container marketing">
+              <div class="row  mt-2">
+                <div class="col-12  mt-3 special-img-card shadow-none ">
+                  <div class="d-flex align-items-center post-content-box">
+                    <img src="../imge/product-imge/so-1.avif" alt="" class="rounded-pill" width="110" height="110">
+                    <div class="post-content">
+                      <h6 class="ms-3">If you need gift ideas for anybody – and we mean ANYBODY – in your life, you've
+                        come to the right place.</h6>
+                      <p class="ms-3"> By answering a few simple questions, this fun gift finder will suggest the
+                        perfect presents based on the
+                        occasion, the person's interests, and more. Etsy Gift Mode takes the stress out of finding
+                        special gifts.
+                        From anniversary gifts to birthday gifts, and even gifts for the people who have everything, use
+                        Etsy Gift
+                        Mode to take the guesswork out of giving.</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <ul class="gift-nav-text">
+                      <li>
+                        <span>Less</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- footer part start -->
+  <section id="nike-section" class="mt-5">
+    <div class="row ">
+      <div class="col-12">
+        <div style="height: 100%; width: 100%;text-align: center; padding: 35px;">
+          <h6>Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.
+          </h6>
+          <div class="textbox1">
+            <input type="text" placeholder="Enter your email">
+            <!-- <input type="text" id="sub" placeholder="Subscribe"> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section id="dreame-section">
+      <div class="row">
+        <div class="col-12">
+          <div class=" w-100 h-100" style="text-align: center; padding: 35px; text-transform: white;">
+            <div class="flag">
+              <h5 style="color: white;"> <i class="fa-solid fa-hands-holding-circle me-4" style="color: white;"></i>
+                <span style="text-decoration: underline;text-decoration-style: dashed;text-underline-position: under;">
+                  Etsy is powered by 100% renewable electricity.</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="footer-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="footer-left-nav-div">
+              <div class="inner-div">
+                <div class="logo-div">Esty</div>
+                <button class="btn">Download the Esty app</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 px-2 py-4 col-12">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <h5 style="color: white; margin-left: 29px;">Shop</h5>
+
+                <ul class="div-footer-nav" style="color: white;">
+                  <li>
+                    <span>Gift cards</span>
+                  </li>
+                  <li>
+                    <span>Etsy Registry</span>
+                  </li>
+                  <li>
+                    <span>Sitemap</span>
+                  </li>
+                  <li>
+                    <span>Etsy blog</span>
+                  </li>
+                  <li>
+                    <span>Etsy United Kingdom</span>
+                  </li>
+                  <li>
+                    <span>Etsy Germany</span>
+                  </li>
+                  <li>
+                    <span>Etsy Canada</span>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="col-lg-3 col-6">
+                <h5 style="color: white;margin-left: 29px;">Sell</h5>
+                <ul class="div-footer-nav" style="color: white;">
+                  <li style="list-style-type: none;">
+                    <span>Gift cards</span>
+                  </li>
+                  <li>
+                    <span>Etsy Registry</span>
+                  </li>
+                  <li>
+                    <span>Sitemap</span>
+                  </li>
+                  <li>
+                    <span>Etsy blog</span>
+                  </li>
+                  <li>
+                    <span>Etsy United Kingdom</span>
+                  </li>
+                  <li>
+                    <span>Etsy Germany</span>
+                  </li>
+                  <li>
+                    <span>Etsy Canada</span>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="col-lg-3 col-6">
+                <h5 style="color: white;margin-left: 29px;">About</h5>
+                <ul class="div-footer-nav" style="color: white;">
+                  <li>
+                    <span>Etsy, Inc.</span>
+                  </li>
+                  <li>
+                    <span>Policies</span>
+                  </li>
+                  <li>
+                    <span>Investors</span>
+                  </li>
+                  <li>
+                    <span>Careers</span>
+                  </li>
+                  <li>
+                    <span>Press</span>
+                  </li>
+                  <li>
+                    <span>Impact</span>
+                  </li>
+                  <li>
+                    <span>Legal imprint</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-6">
+                <ul class="div-footer-nav " style="color: white;">
+                  <h5 style="color: white;">Help</h5>
+
+                  <li>
+                    <span>Help center</span>
+                  </li>
+                  <li>
+                    <span>Privaacy Settings</span>
+                  </li>
+                  <li>
+                    <div class="privaacy">
+                      <i class="fa-brands fa-instagram px-3"></i>
+                      <i class="fa-brands fa-facebook px-3"></i>
+                      <i class="fa-brands fa-pinterest px-3"></i>
+                      <i class="fa-brands fa-square-twitter px-3"></i>
+                      <i class="fa-brands fa-youtube px-2"></i>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+    <section id="Assets-section">
+      <div class="container">
+        <div class="row justify-content-center d-flex">
+          <div class="col-lg-4 col-12 ">
+            <div class="jods-div flag" tabindex="0">
+              <img src="../imge/icons imges/india-flag-icon.webp" style="width: 25px;" alt="">
+              <span style="color: white;">India l English (Uk) l (INR)</span>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-12 d-flex align-items-center justify-content-end">
+            <span style="color: white; font-size: 12.99px;">© 2024 Etsy, Inc.</span>
+            <ul
+              style="display: flex; color: white;  text-decoration-line: underline;   text-decoration-thickness: 1px;">
+              <li style="list-style: none; padding-right: 15px; font-size: 12.99px;">
+                <span>Terms of Use</span>
+              </li>
+              <li style="list-style: none; padding-right: 15px; font-size: 12.99px;">
+                <span>privacy</span>
+              </li>
+              <li style="list-style: none; padding-right: 15px; font-size: 12.99px;">
+                <span>Interest-based ads</span>
+              </li>
+              <li style="list-style: none; padding-right: 15px; font-size: 12.99px;">
+                <span>Local Shops</span>
+              </li>
+              <li style="list-style: none; padding-right: 15px; font-size: 12.99px;">
+                <span>Regions</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- footer part end -->
+
+
+
+
+<!-- Example of including LazyLoad.js from CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="../Assets/owl/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="../Assets/bootstrap-5/js/bootstrap.min.js"></script>
+  <script src="../Assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
